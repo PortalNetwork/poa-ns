@@ -11,12 +11,8 @@ Top-level domains, like `.poa` are owned by smart contracts called registrars, w
 ## Why we need PNS?
 Blockchain addresses are not friendly enough to humans, the hash addresses are too long, hard to remember, and not easy to identify which is correct or incorrect.  
 
-The blockchain now becomes more and more popular, the shortcomings of address transfer will become more and more obvious. Just as we are sending emails today, it is difficult to use a 32-bit string as an email account. Therefore, an alias service is very helpful for the ease of use of the blockchain system. For example, IPFS has an alias service called InterPlanetary Name Service (IPNS), and Ethereum has its own domain name service called Ethereum Name Service (ENS). We do think that POA system should also have its own alias service. Called POA Name Service (PNS),
+The blockchain now becomes more and more popular, the shortcomings of address transfer will become more and more obvious. Just as we are sending emails today, it is difficult to use a 32-bit string as an email account. Therefore, an alias service is very helpful for the ease of use of the blockchain system. For example, IPFS has an alias service called InterPlanetary Name Service (IPNS), and Ethereum has its own domain name service called Ethereum Name Service (ENS). We do think that POA system should also have its own alias service.
 
-## PNS use cases
-The most important use case of the PNS is for transfer, especially those address that need to disclose their own transfer address and do not change the address frequently.
-
-For example, such as ICO smart contract, the project party needs to disclose its official smart contract address in advance on the official website, but it may be modified by hackers. The address, however, it is difficult for investors to find out which is correct or incorrect. If the project party announces a short and easy-to-remember address alias such as PNS, the PNS will be easily recognise, so that the smart contract address can be prevented from being modified by the hacker.
 
 ## The Expandability of PNS
 What kind of resource an alias should point to is flexible and can be implemented just by implementing the corresponding PNS resolvers. In addition to pointing to an address, it can also point to a contract address, thus enabling interaction through PNS and smart contracts.
